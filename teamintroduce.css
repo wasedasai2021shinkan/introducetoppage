@@ -1,0 +1,233 @@
+body {
+  font-family: "Avenir Next";
+  margin: 0;
+  padding: 0;
+  color: #1a1a1a;
+  background: #f6f5f4;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background:none;
+  color: #203458;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-sizing: border-box;
+  display: flex; /* flexboxを作る */
+  align-items: center; /* 上下中央に揃える */
+  justify-content: space-between; /* 両端に配置 */
+  position: fixed;
+  top: 0;
+}
+
+
+.header-logo {
+  font-size: 50px;
+  margin: 20px 40px;
+  border-bottom: solid 3px;
+}
+
+.header-logo a{
+  color: #203458;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+nav ul{
+  display: flex;
+
+}
+
+nav li a{
+  padding: 10px 15px;
+  color: #203458;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  padding: 10px 0px 0px 0px;
+}
+
+.copy-container h1 {
+  font-size: 140px;
+  padding-left:30px;
+  padding-bottom:100px;
+  padding-top:100px;
+  color:#203458;
+}
+
+ 
+
+
+.section-title1 {
+  color:#203458;
+  border-bottom: 7px groove #dee7ec;
+  font-size: 40px;
+  padding-bottom: 5px;
+  margin-bottom: 50px;
+  padding-left:30px;
+}
+
+.about-contents{
+  color:#203458;
+  text-align: center;
+  font-size: 24px;
+  line-height: 55px;
+}
+
+.about-btn {
+  display       : inline-block;
+  border-radius : 50%;          /* 角丸       */
+  font-size     : 18pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 20px 50px;   /* 余白       */
+  background    : #203458;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  opacity       : 1;           /* 透明度     */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 6px 6px 6px #666666;  /* 影の設定 */
+  text-decoration: none;
+  float: right;
+  margin-right: 150px;
+}
+
+.about-button:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  opacity       : 0.8;         /* カーソル時透明度 */
+}
+
+.contents1{
+  margin-bottom: 160px;
+}
+
+.contents2{
+  padding-top: 50px;
+  background-color: #a5d3ad;
+  padding-bottom: 100px;
+}
+
+.section-title2 {
+  color: #ffffff;
+  border-bottom: 7px groove #dee7ec;
+  font-size: 40px;
+  padding-bottom: 5px;
+  margin-bottom: 50px;
+  padding-left:30px;
+}
+
+
+.wrapper{
+  border : 15px double #ecb338;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.wrapper1{
+   display: flex;
+   justify-content: space-around;
+   margin-right: 10%;
+   margin-left: 10%;
+}
+
+.wrapper2{
+   display: flex;
+   justify-content: space-around;
+   margin-right: 20%;
+   margin-left: 20%;
+}
+
+.introduce-photo{
+  width: 200px;
+　height: 200px;
+}
+
+
+.introduce-status{
+  color: #ffffff;
+  font-size     : 18pt;
+  font-weight: 600;
+  text-align: center;
+}
+
+.introduce-status a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.contents3{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.section-title3 {
+  color:#203458;
+  border-bottom: 7px groove #dee7ec;
+  font-size: 40px;
+  padding-bottom: 5px;
+  margin-bottom: 50px;
+  padding-left:30px;
+}
+
+.comingsoon{
+  color:#203458;
+  text-align: center;
+  font-size: 40px;
+  line-height: 55px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contents4{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #ecb338;
+}
+
+.section-title4 {
+  color:#203458;
+  border-bottom: 7px groove #dee7ec;
+  font-size: 40px;
+  padding-bottom: 5px;
+  margin-bottom: 50px;
+  padding-left:30px;
+}
+
+.instaphoto{
+  text-align: center;
+  margin-top: 100px
+}
+
+.tap{
+  font-size: 40px;
+  color:#203458;
+  line-height: 80px;
+  font-weight:700; 
+}
+
+.footer {
+  background-color: #203458;
+  color: #fff;
+  text-align: center;
+  height: 80px;
+  padding: 70px;
+}
+
+.footer-logo {
+  font-size: 20px;
+  padding: 0.5em 0;/*上下の余白*/
+  
+}
