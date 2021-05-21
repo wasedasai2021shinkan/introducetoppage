@@ -6,6 +6,13 @@ body {
   background: #f6f5f4;
 }
 
+@media screen and (max-width: 480px)　{
+
+img {
+width: 100% ;
+}
+}
+
 li {
   list-style: none;
 }
