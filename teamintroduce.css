@@ -88,7 +88,7 @@ nav li a:hover {
 .about-contents{
   color:#203458;
   text-align: center;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 55px;
 }
 
@@ -139,15 +139,15 @@ nav li a:hover {
   border : 15px double #ecb338;
   padding-top: 50px;
   padding-bottom: 50px;
-  margin-right: 15%;
-  margin-left: 15%;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 .wrapper1{
    display: flex;
    justify-content: space-around;
-   margin-right: 10%;
-   margin-left: 10%;
+   margin-right: 6%;
+   margin-left: 6%;
 }
 
 .wrapper2{
