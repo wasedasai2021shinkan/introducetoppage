@@ -135,6 +135,12 @@ nav li a:hover {
   padding-left:30px;
 }
 
+.chuui{
+  text-align  : center;  
+  color:#ffffff;
+  font-size: 25px;
+}
+
 
 .wrapper{
   border : 15px double #ecb338;
